@@ -1,0 +1,22 @@
+/*CSS Variables*/
+:root {
+  --primary: #ddd;
+  --dark: #2a2a2a;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 1004, 104, 0.4);
+}
+
+.portfolio {
+  display: grid;
+  grid-gap: 40px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: var(--dark);
+  margin: 30px 50px;
+}
